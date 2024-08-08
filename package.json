@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "tauri": "tauri"
+    "dev:browser": "vite",
+    "build:browser": "vite build",
+    "preview:browser": "vite preview",
+    "dev": "tauri dev",
+    "build": "tauri build"
   },
   "dependencies": {
     "@tauri-apps/api": "^1",
